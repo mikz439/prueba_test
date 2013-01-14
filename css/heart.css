@@ -1,0 +1,116 @@
+/* CSS de Index */		
+html,body{
+	width:100%;
+	height:100%;
+	margin:0;
+	padding:0;}
+body{
+	background-image: url(../images/lamparas-pasion-truca-chetumal.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;}
+.container{
+	width: 1024px;
+	margin: 0 auto;	}
+.header-left{
+	float: left;
+	width: 28%;
+	height: 700px;}
+.logo{
+	width: 90%;
+	height: 150px;
+	text-indent: -9999px;
+	background-image: url(../images/pasion.png);
+	background-position: center;
+	background-repeat: no-repeat;}
+.navegacion{
+	width: 90%;
+	height: 350px;
+	margin-top: 120px;	}
+.navegacion ul{
+	list-style: none;
+	width: 100%;
+	padding: 0;	}
+.navegacion ul li{
+	background: rgb(139,37,0); /* Old browsers */
+background: -moz-linear-gradient(top,  rgba(139,37,0,1) 0%, rgba(80,1,0,1) 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(139,37,0,1)), color-stop(100%,rgba(80,1,0,1))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  rgba(139,37,0,1) 0%,rgba(80,1,0,1) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  rgba(139,37,0,1) 0%,rgba(80,1,0,1) 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  rgba(139,37,0,1) 0%,rgba(80,1,0,1) 100%); /* IE10+ */
+background: linear-gradient(to bottom,  rgba(139,37,0,1) 0%,rgba(80,1,0,1) 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#8b2500', endColorstr='#500100',GradientType=0 ); /* IE6-9 */
+	cursor: pointer;
+	padding-top: 10px; 
+	width: 100%;
+	height: 40px;
+	margin: 10px auto;
+	border-radius: 7px;}
+.navegacion ul li:hover{background: #3B0008;}
+.navegacion ul li:hover a{
+	width: 90%;
+	margin-left: 10%;
+	color: #BA6804;}
+.navegacion ul li a{
+	text-decoration: none;
+	background-image: url(../images/sun.png);
+	background-repeat: no-repeat;
+	background-position: 0px 15px; 
+	width: 100%;
+	padding: 18px 0 15px 30px;
+	font-family: 'Rambla', sans-serif;
+	font-size: 21px;	
+	color: white;	
+}
+.contenido{
+	margin-top: 50px;
+	width: 72%;
+	float: left;
+	clear: right;	
+}
+#slider{
+	width: 100%;
+	height: 450px;
+	background: #2C000D;
+	border-radius: 7px;
+}
+#slider img{
+	border-radius: 7px;
+	width: 98%;
+	margin:5px 0 35px 1% ;
+	height: 410px;
+}
+.conte-texto{
+	width: 100%;
+	height: auto;
+	margin-top: 20px;
+	padding: 10px 0 15px 0;
+	background: rgb(100,13,22); /* Old browsers */
+background: -moz-linear-gradient(top,  rgba(100,13,22,1) 0%, rgba(96,14,20,1) 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(100,13,22,1)), color-stop(100%,rgba(96,14,20,1))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  rgba(100,13,22,1) 0%,rgba(96,14,20,1) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  rgba(100,13,22,1) 0%,rgba(96,14,20,1) 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  rgba(100,13,22,1) 0%,rgba(96,14,20,1) 100%); /* IE10+ */
+background: linear-gradient(to bottom,  rgba(100,13,22,1) 0%,rgba(96,14,20,1) 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#640d16', endColorstr='#600e14',GradientType=0 ); /* IE6-9 */
+}
+.conte-texto h2{
+	font-family: 'Eagle Lake', cursive;
+	padding-left: 30px;
+	color: white;
+	font-size: 24px;
+}
+.conte-texto p{
+	font-family: 'Rambla', sans-serif;
+	margin: -15px 25px 10px 25px;
+	padding-bottom: 10px;
+	font-size: 18px;
+	border-bottom: #fff solid 1px;
+	color: #CD8D15;
+}
+.piepagina{
+	float: left;
+	margin: 60px 0 0 0;
+	width: 100%;
+	background-image: url(../images/rojo-vino-def.png);
+	height: 50px;
+}
